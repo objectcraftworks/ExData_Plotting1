@@ -9,7 +9,7 @@
 If Tidyr file "household_power_consumption_tidyr.csv" doesn't exist in "./data" directory, sourced script "load_tidyr.R" downloads, and unzips the dataset. It also substitutes NAs for ?, which is the missing value of the original dataset.
 It creates a timestamp column which is in the local timezone, i.e. These plots will be in the timezone of the system running these scripts.
 
-> As the focus is on the first two days of feb 2016, the tidyr file contains observations for these two days only. 
+> As the focus is on the first two days of feb 2007, the tidyr file contains observations for these two days only. 
 
 ### Variables:
 The following descriptions of the 9 variables in the dataset are taken from the UCI web site:
