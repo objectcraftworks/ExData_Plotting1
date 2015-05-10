@@ -2,7 +2,7 @@
 
 * data contains the original dataset, and tidyr file, an intermediate dataset used by all plot*.R scripts
 * PlotX.R and PlotX.png files are in the root folder
-* load_tidyr.R script, which is sources in all the plot scripts
+* load_tidyr.R script, which is sourced in all the plot scripts
 
 ### Getting and Tidying the data for graphical analysis
 
