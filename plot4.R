@@ -19,7 +19,7 @@ with(two_days_consumption, plot(Time_Stamp,Voltage ,type="l",
 # Third Graph : BottomLeft: DateTime Vs EnergySubmeter1-3
 
 with(two_days_consumption, plot(Time_Stamp,Sub_metering_1 ,type="l",
-                                ylab="Global Active Power(killowatts)", xlab=""))
+                                ylab="Energy Sub metering", xlab=""))
 with(two_days_consumption,lines(Time_Stamp,Sub_metering_2,col="RED"))
 with(two_days_consumption,lines(Time_Stamp,Sub_metering_3,col="BLUE"))
 
@@ -30,6 +30,6 @@ legend('topright',
 
 # Final graph: Bottom Right: DateTime Vs Global Reactive Power
 with(two_days_consumption, plot(Time_Stamp,Global_reactive_power ,type="l",
-                                xlab="",    ylab="Global Reactive Power"))
+                                xlab="",    ylab="Global_reactive_power"))
 
 dev.off()

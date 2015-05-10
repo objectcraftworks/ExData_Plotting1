@@ -12,9 +12,10 @@ data_file <- "./data/household_power_consumption.txt"
 tidyr_file <- "./data/household_power_consumption_tidyr.csv"
 ## if required data file tidyr_file doesn't exist, download, and tidyr it for plots
 
-if(!file.exists(tidyr_file)) {
-  
-
+if(! file.exists(tidyr_file)) {
+ if(!file.exists("./data/")) {
+   dir.create("./data/")
+ }
 download.file(data_url, destfile=zip_file, method="curl")
 unzip(zip_file,exdir="./data")
 
