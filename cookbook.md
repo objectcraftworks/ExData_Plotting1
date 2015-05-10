@@ -6,7 +6,7 @@
 
 ### Getting and Tidying the data for graphical analysis
 
-If Tidyr file "household_power_consumption_tidyr.csv" doesn't exist in "./data" directory, sourced script "load_tidyr.R" downloads, and unzips the dataset. It also substitutes NAs for ?, which is the missing value of the original dataset.
+If Tidyr file `household_power_consumption_tidyr.csv` doesn't exist in "./data" directory, sourced script `load_tidyr.R` downloads, and unzips the dataset. It also substitutes `NAs for ?`, which is the missing value of the original dataset.
 It creates a timestamp column which is in the local timezone, i.e. These plots will be in the timezone of the system running these scripts.
 
 > As the focus is on the first two days of feb 2007, the tidyr file contains observations for these two days only. 
