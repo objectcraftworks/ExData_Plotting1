@@ -1,6 +1,7 @@
 ### Folder structure
 
-* data contains the original dataset, and tidyr file, an intermediate dataset used by all plot*.R scripts
+* Update: Deleted the data folder to size limitation ~~ data contains the original dataset~~ 
+* tidyr file, an intermediate dataset used by all plot*.R scripts
 * PlotX.R and PlotX.png files are in the root folder
 * load_tidyr.R script, which is sourced in all the plot scripts
 
